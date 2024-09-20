@@ -1,0 +1,65 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256[]",
+						"name": "nums",
+						"type": "uint256[]"
+					}
+				],
+				"name": "insertSort",
+				"outputs": [
+					{
+						"internalType": "uint256[]",
+						"name": "",
+						"type": "uint256[]"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/test2.sol/InsertSort.sol": "InsertSort"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/test2.sol/InsertSort.sol": {
+			"keccak256": "0x7be1ef4e2607a7f3fb2d591c2bbeb206840661442a5e974c04f8818ea0fdeec9",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://407294c10c7e85007e4fa8e0eb6282bacea9d5c3eeed655612a6e39d82015c4e",
+				"dweb:/ipfs/Qme1zHaQjAUhFR3bmF19TTYuj7AwM4danB9XGRXuuA5wWi"
+			]
+		}
+	},
+	"version": 1
+}
